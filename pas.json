@@ -1,0 +1,15 @@
+{
+    "name": "reekoheek/docker-arch",
+    "profile": "docker",
+
+    "docker": {
+        "containers": {
+            "root": {
+                "command": ["ping", "google.com"]
+            },
+            "ping": {
+                "command": ["ping", "yahoo.com"]
+            }
+        }
+    }
+}
